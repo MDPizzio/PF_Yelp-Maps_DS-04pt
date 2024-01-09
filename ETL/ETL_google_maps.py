@@ -73,6 +73,3 @@ df_reducido.to_parquet(ruta)
 fin = time.time()#Finaliza temporizador
 tiempo_ejecucion = fin - inicio
 print(f"Tiempo de ejecución: {round(tiempo_ejecucion, 2)} segundos")
-
-
-
