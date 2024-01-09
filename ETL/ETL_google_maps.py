@@ -17,6 +17,12 @@ def binario(dato):
     else:
         return 0
 
+def nulos_categoricos(dato):
+    if dato is None:
+        return 'Dato desconocido' 
+    else:
+        return dato
+    
 inicio = time.time()#Inicia temporizador
 
 #EXTRACCION
@@ -67,6 +73,13 @@ df_reducido['accessibility'] = df_reducido['MISC'].apply(extraer_MISC)
 df_reducido['accessibility'] = df_reducido['accessibility'].apply(binario)
 
 df_reducido = df_reducido.drop('MISC', axis=1)#Eliminar columna address
+
+df_reducido['name'] = df_reducido['name'].apply(nulos_categoricos)
+df_reducido['category'] = df_reducido['category'].apply(nulos_categoricos)
+df_reducido['url'] = df_reducido['url'].apply(nulos_categoricos)
+df_reducido['postal_code'] = df_reducido['postal_code'].apply(nulos_categoricos)
+df_reducido['city'] = df_reducido['city'].apply(nulos_categoricos)
+df_reducido['number_and_street'] = df_reducido['number_and_street'].apply(nulos_categoricos)
 
 df_reducido.to_parquet(ruta)
 
