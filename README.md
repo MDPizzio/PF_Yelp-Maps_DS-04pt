@@ -69,7 +69,14 @@ Aplicamos análisis predictivos para identificar los rubros de negocios dentro d
 <img src = 'img/diagrama de gantt.PNG'>
 <br><br>
 <p>También utilizamos la metodología SCRUM con dos Dailies, más de dos reuniones de equipo y una DEMO por semana:</p>
-<img src = 'img/scrum.png' height = '300'>
+<img src = 'img/scrum.PNG' height = '300'>
+<br><br>
+<p>
+
+- Notas reunión: https://docs.google.com/document/d/138njT8nhIx37JW_BM0aoCryc7mcYEBctzZ_uwstjLEU/edit?usp=sharing
+- Link Jira: https://pf-grupo04.atlassian.net/
+
+</p>
 
 ## KPIs
 
