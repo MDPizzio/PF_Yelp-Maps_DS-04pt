@@ -1,4 +1,5 @@
 import pandas as pd
+import numpy as np
 import time
 import os
 
@@ -17,12 +18,6 @@ def binario(dato):
     else:
         return 0
 
-def nulos_categoricos(dato):
-    if dato is None:
-        return 'Dato desconocido' 
-    else:
-        return dato
-    
 inicio = time.time()#Inicia temporizador
 
 #EXTRACCION
@@ -74,12 +69,17 @@ df_reducido['accessibility'] = df_reducido['accessibility'].apply(binario)
 
 df_reducido = df_reducido.drop('MISC', axis=1)#Eliminar columna address
 
-df_reducido['name'] = df_reducido['name'].apply(nulos_categoricos)
-df_reducido['category'] = df_reducido['category'].apply(nulos_categoricos)
-df_reducido['url'] = df_reducido['url'].apply(nulos_categoricos)
-df_reducido['postal_code'] = df_reducido['postal_code'].apply(nulos_categoricos)
-df_reducido['city'] = df_reducido['city'].apply(nulos_categoricos)
-df_reducido['number_and_street'] = df_reducido['number_and_street'].apply(nulos_categoricos)
+#Manejo de nulos categoricos
+df_reducido['name'] = df_reducido['name'].fillna('Dato desconocido')
+df_reducido['category'] = df_reducido['category'].fillna('Dato desconocido')
+df_reducido['url'] = df_reducido['url'].fillna('Dato desconocido')
+df_reducido['postal_code'] = df_reducido['postal_code'].fillna('Dato desconocido')
+df_reducido['city'] = df_reducido['city'].fillna('Dato desconocido')
+df_reducido['number_and_street'] = df_reducido['number_and_street'].fillna('Dato desconocido')
+
+#Manejo de nulos numericos
+df_reducido['avg_rating'] = df_reducido['avg_rating'].fillna(0)
+df_reducido['num_of_reviews'] = df_reducido['num_of_reviews'].fillna(0)
 
 df_reducido.to_parquet(ruta)
 
