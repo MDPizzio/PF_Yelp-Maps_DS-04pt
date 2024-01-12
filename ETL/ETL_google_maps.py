@@ -24,7 +24,8 @@ inicio = time.time()#Inicia temporizador
 
 #Nombre de la carpeta donde estan alojados los archivos
 carpeta = 'C:/Users/eduen/Desktop/PF_Yelp-Maps_DS-04pt/metadata_google'
-ruta = 'ETL\metadata_google.parquet'#Ruta donde se almacena el parquet
+ruta = 'ETL\etl_metadata_sitios_google.parquet'#Ruta donde se almacena el parquet
+pre_ruta = 'ETL\metadata_sitios_google.parquet'
 
 lista_df = []
 
@@ -35,6 +36,7 @@ for archivo in os.listdir(carpeta):
 
 df = pd.concat(lista_df, ignore_index=True)#Concatenacion de todos los df
 
+df.to_parquet(pre_ruta)
 #TRANSFORMACION
 df['category'] = df['category'].astype(str)#Transformar category en string
 

@@ -2,3 +2,5 @@ venv/
 metadata_google/
 metadata_google.parquet
 metadata_google_maps.parquet
+etl_metadata_sitios_google.parquet
+metadata_sitios_google.parquet
