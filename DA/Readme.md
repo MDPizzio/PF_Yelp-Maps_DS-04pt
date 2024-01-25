@@ -37,7 +37,7 @@ En la primera página, nos enfocamos en los intervalos de tiempo mensuales:
 En la segunda página, nos centramos en la presentación de los indicadores de manera trimestral:
 
 <p align = 'center'>
-<img src = img/dashboard2.JPG height = '400'>
+<img src = img/dashboard2.jpg height = '400'>
 </p>
 
 
