@@ -31,7 +31,7 @@ Para una presentación más clara y organizada de los KPIs seleccionados, dividi
 En la primera página, nos enfocamos en los intervalos de tiempo mensuales:
 
 <p align = 'center'>
-<img src = img/dashboard1.JPG height = '400'>
+<img src = img/dashboard1.jpg height = '400'>
 </p>
 
 En la segunda página, nos centramos en la presentación de los indicadores de manera trimestral:
