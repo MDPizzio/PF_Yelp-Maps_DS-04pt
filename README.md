@@ -118,10 +118,10 @@ Aplicamos análisis predictivos para identificar los rubros de negocios dentro d
 
 <p>El objetivo de este KPI es incrementar la cantidad de check-in en un 5%. 
 
-- <b>5- Índice de calidad de restaurantes en áreas desabastecidas</b>
+- <b>5- Índice de comentarios positivos:</b>
 
-<p>Se propone evaluar de manera mensual la concentración de restaurantes según su calidad en áreas geográficas desabastecidas.
+<p>Se propone analizar de manera trimestral los comentarios positivos recibidos en las plataformas.
 
-<p>Fórmula de uso: (Cantidad restaurantes con calificación alta en área desabastecida / Total restaurantes en área desabastecida) * 100
+<p>Formula de uso: ((Comentarios Positivos Periodo Actual - Comentarios Positivos Periodo Anterior) - Comentarios Positivos Periodo Anterior) * 100
 
-<p>El objetivo de este KPI es identificar la proporción de restaurantes de alta calidad en áreas desabastecidas e incrementarlo un 1%.
+<p>El objetivo es incrementar un 30% trimestral la cantidad de comentarios positivos.
