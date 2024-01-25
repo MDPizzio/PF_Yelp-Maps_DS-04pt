@@ -13,10 +13,25 @@ Recordamos una vez más que el alcance de nuestros datos, obtenidos de las plata
 
 ## Objetivo
 
-En esta etapa tenemos como objetivo presentar nuestros datos en un Dashboard interactivo, donde se podrán visualizar aquellas características relevantes para la toma de decisiones de nuestros clientes, y los indicadores clave de rendimiento (KPIs):
+Enfocándonos en las necesidades específicas de las empresas del rubro gastronómico interesadas en mejorar la experiencia de sus usuarios, nuestro dashboard proporciona una visión detallada de los puntos clave que influyen en la calidad de los servicios ofrecidos. Con un total de 5 KPIs seleccionados, destacamos aquellos aspectos críticos que demandan atención y acción por parte de los gestores y propietarios de estos establecimientos.
 
 - Aumentar mensualmente el porcentaje de negocios con valoraciones de 4-5 estrellas.
 - Alcanzar mensualmente una tasa de respuesta al usuario de mínimo el 80%.
 - Incrementar la participación de los usuarios en un 5% de manera trimestral.
 - Incrementar mensualmente la cantidad de check-in en un 5%.
-- Aumentar mensualmente la cantidad de negocios en áreas desabastecidas en un 1%.
+- Incrementar un 30% trimestral la cantidad de comentarios positivos.
+
+## Dashboard
+Nuestro dashboard no solo presenta información relevante y oportuna, sino que también se posiciona como una herramienta poderosa para impulsar la toma de decisiones informadas y estratégicas en el sector gastronómico, permitiendo a las empresas identificar áreas de mejora y optimización para satisfacer las demandas y expectativas de sus clientes de manera efectiva.
+
+La elección de la plataforma Google Cloud para nuestro proyecto se basó en su capacidad para integrar de manera eficiente los datos almacenados en el data warehouse de BigQuery con Looker Studio. Esta integración nos permitió aprovechar un entorno unificado para el análisis y la visualización de datos, lo que resultó fundamental para la coherencia y la eficacia de nuestro trabajo.
+
+Para una presentación más clara y organizada de los KPIs seleccionados, dividimos nuestro dashboard en dos páginas, cada una diseñada para mostrar los indicadores relevantes dentro de diferentes intervalos de tiempo.
+
+En la primera página, nos enfocamos en los intervalos de tiempo mensuales:
+
+En la segunda página, nos centramos en la presentación de los indicadores de manera trimestral:
+
+
+
+
