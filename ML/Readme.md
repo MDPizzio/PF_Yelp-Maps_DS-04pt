@@ -2,7 +2,7 @@
 
 Bienvenido a la documentación de la aplicación Streamlit. Esta aplicación utiliza Streamlit para crear una interfaz web interactiva para describir brevemente la funcionalidad.
 
-<img src = 'img\streamlit.PNG'>
+<img src = 'SR_ML-main\img\streamlit.PNG'>
 
 ## Estructura del proyecto
 
