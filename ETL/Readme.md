@@ -7,7 +7,7 @@ La combinación de la automatización ETL y la carga incremental no solo mejora 
 Un diagrama ER (Entidad-Relacion) es una representación visual que describe las relaciones entre diferentes entidades en un sistema de información o base de datos. Este tipo de diagrama es fundamental para modelar la estructura de una base de datos y comprender cómo las distintas entidades interactúan entre sí.
 
 <p align="center">
-    <img src="img/diagramaER.jpeg" height="500">
+    <img src="img/diagramaER.jpg" height="500">
 </p>
 
 ## Procesamiento de datos
