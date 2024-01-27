@@ -41,5 +41,8 @@ En la segunda página, nos centramos en la presentación de los indicadores de m
 </p>
 
 
+# Enlace al dashboard
+
+👉  https://lookerstudio.google.com/u/0/reporting/f89c3033-6e58-4921-b0fa-6f946f393fd5/page/y6nnD  
 
 
